@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Orders – Show Only Undelivered
 // @namespace    https://github.com/cpettit/Amazon-Undelivered-Order-Filter
-// @version      1.3.2
+// @version      1.3.3
 // @description  Filters the Amazon "Your Orders" page to hide delivered AND cancelled orders, showing only the ones still in progress. Adds a toggle plus an optional "Load all pages" button that merges those orders from every page onto one screen.
 // @author       cpettit
 // @homepageURL  https://github.com/cpettit/Amazon-Undelivered-Order-Filter
@@ -35,7 +35,7 @@
   //    "cancel" but NOT "cancelled" / "canceled".
   // Non-English Amazon? Swap these for your locale's words.
   const START_PHRASES = ['delivered'];
-  const CONTAINS_PHRASES = ['cancelled', 'canceled', 'return received', 'return completed'];
+  const CONTAINS_PHRASES = ['cancelled', 'canceled', 'return received', 'return completed','refund issued'];
 
   // Candidate wrappers for a single order "card". The FIRST selector that
   // matches at least one element wins. If Amazon changes its markup and the
