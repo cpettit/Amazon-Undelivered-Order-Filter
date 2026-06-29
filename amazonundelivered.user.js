@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Orders – Show Only Undelivered
 // @namespace    https://github.com/cpettit/Amazon-Undelivered-Order-Filter
-// @version      1.3.3
+// @version      1.3.4
 // @description  Filters the Amazon "Your Orders" page to hide delivered AND cancelled orders, showing only the ones still in progress. Adds a toggle plus an optional "Load all pages" button that merges those orders from every page onto one screen.
 // @author       cpettit
 // @homepageURL  https://github.com/cpettit/Amazon-Undelivered-Order-Filter
@@ -19,7 +19,7 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.3.3';
+  const VERSION = '1.3.4';
   const LOG = (...args) => console.log('[Amazon Undelivered]', ...args);
 
   LOG(`v${VERSION} loaded on`, location.href);
