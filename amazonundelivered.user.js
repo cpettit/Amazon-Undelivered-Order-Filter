@@ -35,7 +35,7 @@
   //    "cancel" but NOT "cancelled" / "canceled".
   // Non-English Amazon? Swap these for your locale's words.
   const START_PHRASES = ['delivered'];
-  const CONTAINS_PHRASES = ['cancelled', 'canceled', 'return received', 'return completed','refund issued'];
+  const CONTAINS_PHRASES = ['cancelled', 'canceled', 'return received', 'return completed','refund issued', 'return complete'];
 
   // Candidate wrappers for a single order "card". The FIRST selector that
   // matches at least one element wins. If Amazon changes its markup and the
