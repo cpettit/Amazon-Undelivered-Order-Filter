@@ -19,7 +19,7 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.3.2';
+  const VERSION = '1.3.3';
   const LOG = (...args) => console.log('[Amazon Undelivered]', ...args);
 
   LOG(`v${VERSION} loaded on`, location.href);
