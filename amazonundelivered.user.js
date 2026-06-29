@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Amazon Orders – Show Only Undelivered
-// @namespace    https://example.com/amazon-undelivered
-// @version      1.3.0
+// @namespace    https://github.com/cpettit/Amazon-Undelivered-Order-Filter
+// @version      1.3.1
 // @description  Filters the Amazon "Your Orders" page to hide delivered AND cancelled orders, showing only the ones still in progress. Adds a toggle plus an optional "Load all pages" button that merges those orders from every page onto one screen.
-// @author       you
+// @author       cpettit
+// @homepageURL  https://github.com/cpettit/Amazon-Undelivered-Order-Filter
+// @supportURL   https://github.com/cpettit/Amazon-Undelivered-Order-Filter/issues
+// @downloadURL  https://raw.githubusercontent.com/cpettit/Amazon-Undelivered-Order-Filter/refs/heads/main/amazonundelivered.user.js
+// @updateURL    https://raw.githubusercontent.com/cpettit/Amazon-Undelivered-Order-Filter/refs/heads/main/amazonundelivered.user.js
 // @match        https://www.amazon.com/gp/css/order-history*
 // @match        https://www.amazon.com/gp/your-account/order-history*
 // @match        https://www.amazon.com/your-orders/*
@@ -15,7 +19,7 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.2.0';
+  const VERSION = '1.3.1';
   const LOG = (...args) => console.log('[Amazon Undelivered]', ...args);
 
   LOG(`v${VERSION} loaded on`, location.href);
