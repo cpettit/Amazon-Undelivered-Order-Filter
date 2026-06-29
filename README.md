@@ -31,7 +31,7 @@ It adds two small floating buttons to the paage: a toggle to switch filtering on
 Open `amazon-undelivered-only.user.js` (the raw file) in your browser and your userscript manager will prompt you to install it. If you've forked or cloned this repo, the raw URL looks like:
 
 ```
-https://github.com/<your-username>/<your-repo>/raw/main/amazon-undelivered-only.user.js
+https://raw.githubusercontent.com/cpettit/Amazon-Undelivered-Order-Filter/refs/heads/main/amazonundelivered.js
 ```
 
 Alternatively, open the Tampermonkey dashboard → **+** (Create a new script) → paste the file contents → **File → Save**.
